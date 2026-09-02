@@ -3,6 +3,7 @@ import Free from "./Leftcomponents/Free";
 import Movies from "./Leftcomponents/Movies";
 import Tvshows from "./Leftcomponents/Tvshows";
 import Livetv from "./Leftcomponents/Livetv";
+import Subscription from "./Leftcomponents/Subscription"
 import Button from "./RightComponents/Button";
 import Geners from "./RightComponents/Geners";
 import Lanugage from "./RightComponents/Language";
@@ -18,6 +19,7 @@ const Navbar = () => {
                     <li><Movies /></li>
                     <li><Tvshows /></li>
                     <li><Livetv /></li>
+                    <li><Subscription /></li>
                 </ul>
             </div>
             <div>
